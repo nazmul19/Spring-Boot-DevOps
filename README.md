@@ -22,3 +22,6 @@ HTTP Endpoints are enabled for accessing the various information about your appl
     15) liquibase : This endpoint provides the details of any liquibase database migrations have been applied (This feature supported since Spring Boot 1.3.0).
     
     In the above list, only few are enabled by default. Others are disabled by default for the security reasons. Developers can override the properties to enable them. We will explain the manual configurations in the subsequent sections.
+
+#How to Run
+    mvn spring-boot:run
